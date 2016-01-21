@@ -4,13 +4,14 @@ var path = require('path'),
 module.exports = {
   tmpDir: basePath + '/tmp',
   publicDir: basePath + '/public',
-  uploadDir: basePath + '/public/images',
-  uploadUrl: '/images/',
+  uploadDir: basePath + '/public/res',
+  uploadUrl: '/res/',
+  deleteUrl: '/del/',
   minFileSize: 0.001,
   maxFileSize: 10485760, // 10MB
   maxPostSize: 10485760, // 10MB
   acceptFileTypes: /.+/i,
-  imageTypes: /\.(gif|jpe?g|png|bmp|swf)$/i,
+  imageTypes: /\.(gif|jpe?g|png|bmp|swf|mp3|ogg|mp4)$/i,
   imageVersions: {
     // 'thumbnails': {
     //   width: 80,
