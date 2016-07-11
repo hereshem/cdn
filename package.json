@@ -1,7 +1,7 @@
 {
-  "name": "imageserver",
-  "version": "1.0.0",
-  "description": "Node.js based image server.",
+  "name": "Static Server",
+  "version": "1.1.0",
+  "description": "Node.js based static server.",
   "main": "server.js",
   "scripts": {
     "test": "make test",
@@ -24,10 +24,9 @@
   "keywords": [
     "Node",
     "image",
-    "server",
-    "image resizing"
+    "server"
   ],
-  "author": "TonyHe <coolhzb@163.com>",
+  "author": "Hem Shrestha, Ashok Basnet",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdoHe/ImageServer/issues"

@@ -8,8 +8,8 @@ module.exports = {
   uploadUrl: '/res/',
   deleteUrl: '/del/',
   minFileSize: 0.001,
-  maxFileSize: 10485760, // 10MB
-  maxPostSize: 10485760, // 10MB
+  maxFileSize: 20485760, // 20MB
+  maxPostSize: 20485760, // 20MB
   acceptFileTypes: /.+/i,
   imageTypes: /\.(gif|jpe?g|png|bmp|swf|mp3|ogg|mp4)$/i,
   imageVersions: {
