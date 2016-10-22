@@ -23,6 +23,10 @@ module.exports = {
     allowMethods: 'GET, POST, DELETE',
     allowHeaders: 'Content-Type, Content-Range, Content-Disposition'
   },
+  blackListUrl:[
+    "hamro.com",
+    "routercheck.com"
+  ],
   /*
   ssl: {
     key: '',
