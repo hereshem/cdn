@@ -20,7 +20,7 @@ module.exports = {
   },
   accessControl: {
     allowOrigin: '*',
-    allowMethods: 'OPTIONS, HEAD, GET, POST, PUT, DELETE',
+    allowMethods: 'GET, POST, DELETE',
     allowHeaders: 'Content-Type, Content-Range, Content-Disposition'
   },
   /*
