@@ -25,6 +25,7 @@ module.exports = {
   },
   blackListUrl:[
     "hamro.com",
+    "appinnovation.com.np",
     "routercheck.com"
   ],
   /*
