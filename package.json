@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "make test",
-    "start": "node cdn_server.js"
+    "start": "node server_cdn.js"
   },
   "dependencies": {
     "node-static": "^0.7.7",
