@@ -2,7 +2,7 @@ var path = require('path'),
     basePath = path.resolve(__dirname, '..');
 
 module.exports = {
-  tmpDir: basePath + '/tmp',
+  tmpDir: basePath + '/public/tmp',
   publicDir: basePath + '/public',
   uploadDir: basePath + '/public/res',
   uploadUrl: '/res/',
@@ -24,9 +24,9 @@ module.exports = {
     allowHeaders: 'Content-Type, Content-Range, Content-Disposition'
   },
   blackListUrl:[
-    "hamro.com",
-    "appinnovation.com.np",
-    "routercheck.com"
+    // "hamro.com",
+    // "appinnovation.com.np",
+    // "routercheck.com"
   ],
   /*
   ssl: {

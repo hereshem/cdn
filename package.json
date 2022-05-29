@@ -1,8 +1,8 @@
 {
-  "name": "Static-Server",
+  "name": "CDN-Server",
   "version": "1.1.0",
-  "description": "Node.js based static server.",
-  "main": "server.js",
+  "description": "Node.js based CDN server.",
+  "main": "server_cdn.js",
   "scripts": {
     "test": "make test",
     "start": "node server_cdn.js"
@@ -12,8 +12,7 @@
     "gm": "^1.22.0",
     "formidable": "^1.0.17",
     "quickthumb": "^0.0.12",
-    "request": "^2.73.0",
-    "mkdirp": "^0.5.1"
+    "request": "^2.73.0"
   },
   "repository": {
     "type": "git",
@@ -22,11 +21,12 @@
   "keywords": [
     "Node",
     "image",
+    "cdn",
     "server"
   ],
-  "author": "Hem Shrestha, Ashok Basnet",
+  "author": "Hem Shrestha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AdoHe/ImageServer/issues"
+    "url": "https://github.com/hereshem/ImageServer/issues"
   }
 }
